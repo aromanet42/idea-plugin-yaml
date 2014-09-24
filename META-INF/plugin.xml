@@ -1,17 +1,15 @@
 <idea-plugin version="2">
-  <id>com.yourcompany.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <id>fr.aromanet.idea.plugin.yaml</id>
+  <name>Yaml Copy Path</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="audrey.romanet42@gmail.com">Audrey Romanet</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+        Plugin permettant de copier le path complet d'une propriété YAML
     ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      - Ajout de l'option "Copy Yaml Path" dans le menu contextuel (clic droit)
     ]]>
   </change-notes>
 
@@ -41,7 +39,6 @@
           <add-to-group group-id="EditorPopupMenu" anchor="first" />
           <action class="fr.aromanet.idea.plugin.yaml.CopyYamlPropertyPath" id="Yaml.Copy" text="Copy Yaml Path" />
       </group>
-    <!-- Add your actions here -->
   </actions>
 
 </idea-plugin>
